@@ -1,7 +1,7 @@
 All rights reserved!Layone and Axiaolei 2013!
 
 1. Definitions
-"AlarmOne" is our Huawei IC 2013 project names and it's now temporary,all rights reserved!
+"AlarmOne" is our leasure 2013 project names and it's now temporary,all rights reserved!
 
 2. Grant of Rights
 (A) Make sure it's under permission!
