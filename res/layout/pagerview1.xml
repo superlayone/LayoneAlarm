@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/mondayCheck"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TimePicker
+        android:id="@+id/timePicker1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="30dp"
+        android:foregroundGravity="center_horizontal" />
+
+	<RelativeLayout 
+	    android:id="@+id/MondayLayout"
+	   	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"  >
+	    <ImageView
+	        android:id="@+id/TEST1"
+	        android:layout_width="30dp"
+	        android:layout_height="30dp"
+	        android:layout_marginLeft="30dp"
+	        android:paddingBottom="4dp"
+	        android:paddingLeft="0dp"
+	        android:paddingRight="0dp"
+	        android:paddingTop="0dp"
+	        android:src="@drawable/add01" />
+	
+		<TextView
+		    android:id="@+id/TEST2"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_alignParentRight="true"
+		    android:layout_alignRight="@+id/MondayLayout"
+		    android:layout_marginRight="30dp"
+		    android:text="TEST"
+		    android:textSize="20dp" />
+
+	</RelativeLayout>
+
+</LinearLayout>
